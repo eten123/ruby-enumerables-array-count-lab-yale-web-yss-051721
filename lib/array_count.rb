@@ -11,8 +11,8 @@ def count_strings(array)
 #binding.pry
 #end
 #binding.pry
-array.count do |element|
-  element.string
+if array.count do |element|
+  element.String?
 end
 end
 
