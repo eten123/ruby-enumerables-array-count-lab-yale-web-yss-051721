@@ -12,9 +12,8 @@ def count_strings(array)
 #end
 #binding.pry
 
-array.count do |num|
-  string?
-
+if array[index] = string?
+  
 end
 
 def count_empty_strings(array)
