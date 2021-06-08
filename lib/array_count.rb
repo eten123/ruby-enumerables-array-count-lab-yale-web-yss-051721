@@ -12,7 +12,7 @@ def count_strings(array)
 #end
 #binding.pry
 array.count do |element|
-  element.string?
+  element.string
 end
 end
 
