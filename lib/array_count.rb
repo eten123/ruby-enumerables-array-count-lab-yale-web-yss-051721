@@ -4,11 +4,10 @@ def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
   length = array.length
   index = 0
-  total = 0
   while index < length do
-    total += 1
+  index += 1
 end
-index += 1
+index
 binding.pry
 end
 total 
