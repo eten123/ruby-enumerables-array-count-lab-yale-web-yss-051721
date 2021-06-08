@@ -11,9 +11,11 @@ def count_strings(array)
 #binding.pry
 #end
 #binding.pry
-
-if array[index] = string?
-  
+count = 0
+if (array.is_a(String?) == true) 
+  count += 1 
+	puts "Obj2 is of String class"
+end
 end
 
 def count_empty_strings(array)
