@@ -14,7 +14,7 @@ def count_strings(array)
 count = 0
 if (array.is_a(String?) == true) 
   count += 1 
-	puts "Obj2 is of String class"
+end
 end
 end
 
