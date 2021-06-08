@@ -13,7 +13,7 @@ def count_strings(array)
 #binding.pry
 count = 0
 if (array.is_a(String?) == true) 
-  count += 1 
+  array.count
 end
 
 
